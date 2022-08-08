@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Сслыка на путь к файлу стиль -->
+    <title>Вкусный хлеб</title>
+    <meta name="description" content="Свежевыпеченный хлеб в городе Чебоксары">
+</head>
+<body>
+    <header>    <!-- Логотип или название -->
+        <img src="img/01-Logo.svg" alt="Изображение логотипа"> <!-- Вставка фотографии, в src пишем путь к файлу, но если файл не грузится или допущена ошибка, то пишем в alt что мы хотели показать -->
+    </header> 
+    <nav>
+        <ul class="first_menu">
+            <li> <!-- Список через . -->
+               <a href="#">О НАС</a> <!-- Ссылка, а после > слово, по которому ссылка работает -->
+            </li>
+            <li>
+                <a href="#">НОВОСТИ</a>
+             </li>
+             <li>
+                <a href="#">МЕНЮ</a>
+             </li>
+             <li class="last">
+                <a href="#">КОНТАКТЫ</a>
+             </li>
+        </ul>
+    </nav> <!-- Навигация -->
+    <main>
+        <section class="section_with_image">
+            <div class="block_with_bread_description">
+                <div class="block_with_bread_description___frame">
+                    <h2 class="block_with_bread_description___frame___header">Специальный заказ</h2>
+                    <p class="block_with_bread_description___frame___text">В нашей пекарне вы можете заказать выпечку любого вкуса и размера, начиная от хлеба к обеду, заканчивая караваем. Мы используем только натуральные продукты для изготовления хлеба.Мы иззготовим хлеб по вашему пожеланию и потребностям, учитывая ваши индивидуальные особенности.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section_with_main_information">
+            <div class="section_with_main_information___images">
+                <img src="icons/01-icon.svg" alt="1 картинка">
+                <img src="icons/02-icon.svg" alt="2 картинка">
+                <img src="icons/03-icon.svg" alt="3 картинка">
+            </div>
+            <div class="section_with_main_information___information">
+                <h2 class="section_with_main_information___information___header">
+                    Выпечка - <span class="red"> это </span>вкусно
+                </h2>
+                <p class="section_with_main_information___information___text">Хлеб — хлебобулочное изделие, получаемое путём выпекания теста (состоящего как минимум из муки и воды), разрыхлённого дрожжами или закваской. Согласно российскому ГОСТу, к хлебу относят хлебобулочные изделия с массой более 500 г с влажностью не менее 19 % Словом «хлеб» часто называют сельскохозяйственные культуры (пшеницу, рожь, ячмень и другие), а также само зерно этих культур и изготовляемую из него муку (см. зерновые культуры). Для приготовления хлеба используют пшеничную и ржаную муку, реже — кукурузную, ячменную и другие. В некоторые сорта хлеба также добавляют специи — такие, как зёрна тмина, орехи, изюм, чеснок, курагу и зёрнышки (семена кунжута, мака и другие). Зёрна служат и для украшения. Хлеб можно есть отдельно, также его употребляют со сливочным, арахисовым или подсолнечным маслом, вареньем, маргарином, повидлом, джемом, желе, мармеладом, мёдом, что по сути является блюдом, носящим название бутерброд. Хлеб используется также как основа для сэндвича. Он может быть только выпеченным или впоследствии подрумянен (например, в тостере), может подаваться почти без ограничений, комнатной температуры или горячим. В некоторых культурах — например, в Эфиопии (ынджера) — хлеб одновременно используется и как столовый прибор.</p>
+            </div>
+        </section>
+        <section class="section_with_map">
+            <h3 class="section_with_map___header">Заказать</h3>
+            <iframe class="section_with_map___map" src ="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17799.779991695566!2d47.271855515625!3d56.1056947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415a364cc32bfb9d%3A0x1d2455a33bbe78a6!2z0JrQsNC70LDRhw!5e0!3m2!1sru!2sru!4v1659953964227!5m2!1sru!2sru" width="900" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <!-- карта -->
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <nav>
+            <ul>
+                <li> <!-- Список через . -->
+                   <a href="#">О НАС</a> <!-- Ссылка, а после > слово, по которому ссылка работает -->
+                </li>
+                <li>
+                    <a href="#">НОВОСТИ</a>
+                 </li>
+                 <li>
+                    <a href="#">МЕНЮ</a>
+                 </li>
+                 <li class="last">
+                    <a href="#">КОНТАКТЫ</a>
+                 </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
